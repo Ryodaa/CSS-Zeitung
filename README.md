@@ -1,1 +1,1 @@
-# Einfach nur ein kleines CSS Projekt zur übung.
+Einfach nur ein kleines CSS Projekt zur übung.
