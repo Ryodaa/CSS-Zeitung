@@ -39,7 +39,6 @@ body {
     height: 2px;
     width: 970px;
     background-color: rgb(53, 53, 53);
-    margin-bottom: 0px;
 }
 
 #countYear {
@@ -49,7 +48,6 @@ body {
 
 #countNr {
     padding-left: 10px;
-    float: left;
     padding-bottom: 10px;
 }
 
