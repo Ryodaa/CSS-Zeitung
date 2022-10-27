@@ -1,25 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 15% auto auto 15%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "sidebarL header header sidebarR"
+        "sidebarL main main sidebarR"
+        "sidebarL footer footer sidebarR";
+}
+
+main {
+    grid-area: main;
+}
+#barR {
+    grid-area: sidebarR;
+}
+#barL {
+    grid-area: sidebarL;
+}
+header {
+    grid-area: header;
+}
+footer {
+    grid-area: footer;
+}
+
+/* Alter CSS */
+
 body {
     background-image: url(./IMG/paper.jpg);
     background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-
-#uberDiv {
-    max-width: 980px;
 }
 
 #headingPrice {
     float: right;
     font-size: 10px;
     margin-right: 0px;
-}
-
-/* Header */
-
-#headerParent {
-    display: flex;
-    justify-content: center;
 }
 
 #headingText {
@@ -30,14 +45,14 @@ body {
 }
 
 #headingSub {
+    position: relative;
+    top: -10px;
     text-align: center;
-    padding: 0 0 0 0;
     font-size: 17px;
 }
 
 #line {
     height: 2px;
-    width: 970px;
     background-color: rgb(53, 53, 53);
 }
 
@@ -53,16 +68,10 @@ body {
 
 /* Content Block */
 
-.parentDiv {
-    display: flex;
-    justify-content: center;
-}
-
-.floating {
+.content {
     border: 2px solid rgb(0, 0, 0);
-    width: 930px;
-    text-align: justify;
     padding: 20px;
+    text-align: justify;
 }
 
 #startText {
@@ -73,6 +82,6 @@ body {
 
 #midText {
     width: 250px;
-    float: inline-end;
+    float: right;
     padding-left: 10px;
 }
