@@ -1,0 +1,81 @@
+body {
+    background-image: url(./IMG/paper.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#uberDiv {
+    max-width: 980px;
+}
+
+.parentDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.floating {
+    border: 2px solid rgb(0, 0, 0);
+    width: 930px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#startText {
+    width: 100px;
+    float: left;
+    padding: 0 20px
+}
+
+#midText {
+    width: 250px;
+    float: inline-end;
+    padding-left: 10px;
+}
+
+#headerParent {
+    display: flex;
+    justify-content: center;
+}
+
+#headingText {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 120px;
+    text-align: center;
+}
+
+#headingSub {
+    text-align: center;
+    padding: 0 0 0 0;
+    font-size: 17px;
+}
+
+#headingPrice {
+    float: right;
+    font-size: 10px;
+    margin-right: 0px;
+}
+
+#countYear {
+    padding-right: 10px;
+    float: right;
+}
+
+#countNr {
+    padding-left: 10px;
+    float: left;
+}
+
+#line {
+    height: 2px;
+    width: inherit;
+    background-color: rgb(53, 53, 53);
+    margin-bottom: 0px;
+}
+
+#lineTwo {
+    height: 2px;
+    width: 974px;
+    padding-bottom: 25px;
+}
